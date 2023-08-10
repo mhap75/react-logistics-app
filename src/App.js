@@ -1,25 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import CategoryForm from "./components/CategoryForm";
+import Header from "./components/Header";
+import ProductForm from "./components/ProductForm";
+import axios from "axios";
+import ProductList from "./components/ProductList";
+
+const initialCatState = { catTitle: "", catDesc: "" };
+const initialProductState = { title: "", quantity: Number(0), cat: "" };
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [category, setCategory] = useState(initialCatState);
+	const [asyncCategory, setAsyncCategory] = useState([]);
+	const [product, setProduct] = useState(initialProductState);
+	const [productsList, setProductsList] = useState([])
+
+	
+	useEffect(() => {
+		(async function () {
+			try {
+				const { data } = await axios.get(
+					"http://localhost:3004/categories"
+				);
+				setAsyncCategory(data);
+			} catch (error) {
+				throw new Error(error.message);
+			}
+		})();
+		(async function () {
+			try {
+				const { data } = await axios.get(
+					"http://localhost:3004/products"
+				);
+				setProductsList(data);
+			} catch (error) {
+				throw new Error(error.message);
+			}
+		})();
+	}, [])
+
+	return (
+		<>
+			<Header productsList={productsList} />
+			<main className="container mx-auto">
+				<CategoryForm
+					setCategory={setCategory}
+					category={category}
+					initialCatState={initialCatState}
+					setAsyncCategory={setAsyncCategory}
+				/>
+				<ProductForm category={asyncCategory} product={product} setProduct={setProduct} initialProductState={initialProductState} setProductsList={setProductsList} />
+				<ProductList productsList={productsList} setProductsList={setProductsList} />
+			</main>
+		</>
+	);
 }
 
 export default App;

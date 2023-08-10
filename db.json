@@ -1,0 +1,172 @@
+{
+  "products": [
+    {
+      "title": "Cuisinart Stainless Steel Toaster Oven",
+      "quantity": "10",
+      "cat": "Kitchen Appliances",
+      "id": 1683300648117
+    },
+    {
+      "title": "Bose SoundLink Wireless Headphones",
+      "quantity": "5",
+      "cat": "Electronics",
+      "id": 1683300648118
+    },
+    {
+      "title": "Nest Learning Thermostat",
+      "quantity": "8",
+      "cat": "Smart Home Devices",
+      "id": 1683300648119
+    },
+    {
+      "title": "Keurig K-Elite Coffee Maker",
+      "quantity": "15",
+      "cat": "Kitchen Appliances",
+      "id": 1683300648120
+    },
+    {
+      "title": "Fitbit Charge 4 Fitness Tracker",
+      "quantity": "12",
+      "cat": "Fitness Trackers",
+      "id": 1683300648121
+    },
+    {
+      "title": "Philips Sonicare Electric Toothbrush",
+      "quantity": "7",
+      "cat": "Personal Care",
+      "id": 1683300648122
+    },
+    {
+      "title": "Amazon Echo Dot Smart Speaker",
+      "quantity": "20",
+      "cat": "Smart Home Devices",
+      "id": 1683300648123
+    },
+    {
+      "title": "Samsung 65-Inch 4K Ultra HD Smart TV",
+      "quantity": "3",
+      "cat": "Electronics",
+      "id": 1683300648124
+    },
+    {
+      "title": "Instant Pot Duo Nova Pressure Cooker",
+      "quantity": "9",
+      "cat": "Kitchen Appliances",
+      "id": 1683300648125
+    },
+    {
+      "title": "Dyson Cyclone V10 Cordless Stick Vacuum",
+      "quantity": "4",
+      "cat": "Home Appliances",
+      "id": 1683300648126
+    },
+    {
+      "title": "Apple AirPods Pro",
+      "quantity": "6",
+      "cat": "Electronics",
+      "id": 1683300648127
+    },
+    {
+      "title": "Ninja Foodi 5-in-1 Indoor Grill",
+      "quantity": "11",
+      "cat": "Kitchen Appliances",
+      "id": 1683300648128
+    },
+    {
+      "title": "Breville Barista Express Espresso Machine",
+      "quantity": "2",
+      "cat": "Kitchen Appliances",
+      "id": 1683300648129
+    },
+    {
+      "title": "Sony WH-1000XM4 Wireless Noise Cancelling Headphones",
+      "quantity": "4",
+      "cat": "Electronics",
+      "id": 1683300648130
+    },
+    {
+      "title": "Roomba i7+ Robot Vacuum",
+      "quantity": "3",
+      "cat": "Home Appliances",
+      "id": 1683300648131
+    },
+    {
+      "title": "Nintendo Switch Console",
+      "quantity": "7",
+      "cat": "Electronics",
+      "id": 1683300648132
+    },
+    {
+      "title": "Nespresso Vertuo Coffee and Espresso Maker",
+      "quantity": "10",
+      "cat": "Kitchen Appliances",
+      "id": 1683300648133
+    },
+    {
+      "title": "Kindle Paperwhite E-Reader",
+      "quantity": "8",
+      "cat": "Electronics",
+      "id": 1683300648134
+    },
+    {
+      "title": "Samsung Galaxy S21 Ultra 5G",
+      "quantity": "5",
+      "cat": "Electronics",
+      "id": 1683300648135
+    },
+    {
+      "title": "Samsung Galaxy Tab s9 Ultra",
+      "quantity": "20",
+      "cat": "Electronics",
+      "id": 1683302250415
+    },
+    {
+      "title": "Milwaukee 750R drill hammer ",
+      "quantity": "23",
+      "cat": "Tools",
+      "id": 1683317098311
+    }
+  ],
+  "categories": [
+    {
+      "catTitle": "Kitchen Appliances",
+      "catDesc": "Kitchen Appliances and related items",
+      "id": "8852958683243"
+    },
+    {
+      "catTitle": "Electronics",
+      "catDesc": "Electronics and related items",
+      "id": "8852958683244"
+    },
+    {
+      "catTitle": "Smart Home Devices",
+      "catDesc": "Smart Home Devices and related items",
+      "id": "8852958683245"
+    },
+    {
+      "catTitle": "Fitness Trackers",
+      "catDesc": "Fitness Trackers and related items",
+      "id": "8852958683246"
+    },
+    {
+      "catTitle": "Personal Care",
+      "catDesc": "Personal Care and related items",
+      "id": "8852958683247"
+    },
+    {
+      "catTitle": "Home Appliances",
+      "catDesc": "Home Appliances and related items",
+      "id": "8852958683248"
+    },
+    {
+      "catTitle": "Tools",
+      "catDesc": "Amy product that is considered as a tool.",
+      "id": 1683317066112
+    },
+    {
+      "catTitle": "Wooden",
+      "catDesc": "Wooden materials",
+      "id": 1683318701772
+    }
+  ]
+}
